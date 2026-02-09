@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VESTARA - SMK Negeri 6 Balikpapan</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a, #8b0000);
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            border: 4px solid #ed1c24;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: 800;
+            margin: 0;
+            color: #ffffff;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            letter-spacing: 1px;
+        }
+
+        .tagline {
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 10px;
+            margin-bottom: 35px;
+            line-height: 1.6;
+            color: #dddddd;
+            text-transform: uppercase;
+        }
+
+        .section-title {
+            color: #ffffff;
+            font-size: 14px;
+            text-align: left;
+            margin-bottom: 10px;
+            margin-left: 5px;
+            font-weight: bold;
+            border-left: 4px solid #ed1c24;
+            padding-left: 10px;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .link-card {
+            background-color: rgba(255, 255, 255, 0.95);
+            color: #222;
+            text-decoration: none;
+            padding: 16px 20px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .link-card:hover {
+            transform: translateX(5px);
+            background-color: #ffffff;
+            box-shadow: 0 6px 15px rgba(237, 28, 36, 0.3);
+        }
+
+        .dots-icon::after {
+            content: '\203A';
+            font-size: 22px;
+            color: #ed1c24;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.jpeg" alt="Logo Event" class="profile-img">
+
+        <h1>VESTARA SKANAM - 14th</h1>
+        <p class="tagline">
+            "Move as One, Thrive Together:<br>
+            Fueling the Future of Vibrant Youth"
+        </p>
+
+        <div class="section-title">FUN WALK</div>
+        <div class="links-container">
+            <a href="https://drive.google.com/file/d/1bZMOsQeYvRUQMzvwMJPFl9_OjbpCIIut/view?usp=drive_link" class="link-card">
+                <span>👟 Juknis Fun Walk</span>
+                <span class="dots-icon"></span>
+            </a>
+            <a href="https://forms.gle/Fzw73RdW2G94aLVv9" target="_blank" class="link-card">
+                <span>📝 Pendaftaran Fun Walk</span>
+                <span class="dots-icon"></span>
+            </a>
+        </div>
+
+        <div class="section-title">MOTOR CONTEST</div>
+        <div class="links-container">
+            <a href="https://drive.google.com/file/d/1qMEcmEqQkpdubMwlp7bBDAhG75YQzsIR/view?usp=drive_link" class="link-card">
+                <span>🛠️ Juknis Kontes Motor</span>
+                <span class="dots-icon"></span>
+            </a>
+            <a href="https://forms.gle/1vdnJhMV3nuUSYkM7" class="link-card">
+                <span>🏍️ Pendaftaran Kontes</span>
+                <span class="dots-icon"></span>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
