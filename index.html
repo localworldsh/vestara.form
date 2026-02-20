@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,8 @@
             margin: 0;
             padding: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1a1a1a, #8b0000);
+            /* Latar belakang biru gradasi modern */
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
             background-attachment: fixed;
             display: flex;
             justify-content: center;
@@ -30,8 +31,9 @@
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 20px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-            border: 4px solid #ed1c24;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+            /* Border diubah menjadi biru muda agar kontras */
+            border: 4px solid #00d2ff;
         }
 
         h1 {
@@ -49,7 +51,7 @@
             margin-top: 10px;
             margin-bottom: 35px;
             line-height: 1.6;
-            color: #dddddd;
+            color: #e0e0e0;
             text-transform: uppercase;
         }
 
@@ -60,7 +62,8 @@
             margin-bottom: 10px;
             margin-left: 5px;
             font-weight: bold;
-            border-left: 4px solid #ed1c24;
+            /* Aksen garis samping menjadi biru cyan */
+            border-left: 4px solid #00d2ff;
             padding-left: 10px;
         }
 
@@ -82,20 +85,22 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             transition: all 0.3s ease;
         }
 
         .link-card:hover {
             transform: translateX(5px);
             background-color: #ffffff;
-            box-shadow: 0 6px 15px rgba(237, 28, 36, 0.3);
+            /* Hover shadow dengan nuansa biru */
+            box-shadow: 0 6px 15px rgba(0, 210, 255, 0.4);
         }
 
         .dots-icon::after {
             content: '\203A';
             font-size: 22px;
-            color: #ed1c24;
+            /* Icon panah diubah warnanya */
+            color: #2c5364;
             font-weight: bold;
         }
     </style>
@@ -113,7 +118,7 @@
 
         <div class="section-title">FUN WALK</div>
         <div class="links-container">
-            <a href="https://drive.google.com/file/d/1bZMOsQeYvRUQMzvwMJPFl9_OjbpCIIut/view?usp=drive_link" class="link-card">
+            <a href="https://drive.google.com/file/d/1bZMOsQeYvRUQMzvwMJPFl9_OjbpCIIut/view?usp=drive_link" class="link-card" target="_blank">
                 <span>👟 Juknis Fun Walk</span>
                 <span class="dots-icon"></span>
             </a>
@@ -125,11 +130,11 @@
 
         <div class="section-title">MOTOR CONTEST</div>
         <div class="links-container">
-            <a href="https://drive.google.com/file/d/1qMEcmEqQkpdubMwlp7bBDAhG75YQzsIR/view?usp=drive_link" class="link-card">
+            <a href="https://drive.google.com/file/d/1qMEcmEqQkpdubMwlp7bBDAhG75YQzsIR/view?usp=drive_link" class="link-card" target="_blank">
                 <span>🛠️ Juknis Kontes Motor</span>
                 <span class="dots-icon"></span>
             </a>
-            <a href="https://forms.gle/1vdnJhMV3nuUSYkM7" class="link-card">
+            <a href="https://forms.gle/1vdnJhMV3nuUSYkM7" class="link-card" target="_blank">
                 <span>🏍️ Pendaftaran Kontes</span>
                 <span class="dots-icon"></span>
             </a>
